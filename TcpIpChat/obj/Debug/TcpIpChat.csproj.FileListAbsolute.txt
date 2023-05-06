@@ -40,3 +40,24 @@ C:\Users\user\Desktop\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.csproj.GenerateRes
 C:\Users\user\Desktop\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.exe
 C:\Users\user\Desktop\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.pdb
+D:\светлана куртева\TcpIpChat\TcpIpChat\bin\Debug\TcpIpChat.exe.config
+D:\светлана куртева\TcpIpChat\TcpIpChat\bin\Debug\TcpIpChat.exe
+D:\светлана куртева\TcpIpChat\TcpIpChat\bin\Debug\TcpIpChat.pdb
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.csproj.AssemblyReference.cache
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.csproj.SuggestedBindingRedirects.cache
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\AdminWindow.g.cs
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\ClientWindow.g.cs
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\MainWindow.g.cs
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\App.g.cs
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat_MarkupCompile.cache
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat_MarkupCompile.lref
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\App.baml
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\AdminWindow.baml
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\ClientWindow.baml
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\MainWindow.baml
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.g.resources
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.Properties.Resources.resources
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.csproj.GenerateResource.cache
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.csproj.CoreCompileInputs.cache
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.exe
+D:\светлана куртева\TcpIpChat\TcpIpChat\obj\Debug\TcpIpChat.pdb

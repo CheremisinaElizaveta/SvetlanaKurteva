@@ -21,9 +21,11 @@ namespace TcpIpChat
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void NewChatButton_Click(object sender, RoutedEventArgs e)

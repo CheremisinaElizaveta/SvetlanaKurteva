@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TcpIpChat"
         mc:Ignorable="d"
-        Title="Сетевой чат администратора" Height="450" Width="700" MinHeight="200" MinWidth="520" Background="#FF1F1F1F" Closed="Window_Closed" Loaded="Window_Loaded">
+        Title="Сетевой чат администратора" Height="450" Width="700" MinHeight="200" MinWidth="520" Background="#B0E0E6" Closed="Window_Closed" Loaded="Window_Loaded" >
     <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -16,26 +16,31 @@
             <ColumnDefinition x:Name="LogsColumn" Width="0"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label Content="Пользователи" Style="{StaticResource HeaderText}" VerticalAlignment="Center"/>
-        <Label Content="Логи чата" Style="{StaticResource HeaderText}" Grid.Column="1" VerticalAlignment="Center"/>
-        <Button x:Name="ChangeShowButton" Content="Посмотреть логи чата" Grid.Column="2" Click="ChangeShowButton_Click"/>
-        <ListBox x:Name="UsersListBox" Grid.Row="1" />
+        <Label FontFamily="Comic Sans MS" Content="Пользователи" Style="{StaticResource HeaderText}" VerticalAlignment="Center"/>
+        <Label FontFamily="Comic Sans MS" Content="Логи чата" Style="{StaticResource HeaderText}" Grid.Column="1" VerticalAlignment="Center"/>
+        <Button FontFamily="Comic Sans MS" x:Name="ChangeShowButton" Content="Посмотреть логи чата" Grid.Column="2" Click="ChangeShowButton_Click" Background="SteelBlue" Margin="5,6,279,6"/>
+        <Button FontFamily="Comic Sans MS" x:Name="DiscconectButton" Grid.Column="2" Content="Выйти" Width="70" Click="DiscconectButton_Click" Background="SteelBlue" />
+
+        <ListBox x:Name="UsersListBox" Grid.Row="1" Background="PowderBlue" />
         <ListBox x:Name="LogListBox" Grid.Column="1" Grid.Row="1" />
         <Grid Grid.Column="2" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="123*"/>
+                <ColumnDefinition Width="377*"/>
+            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            <TextBox x:Name="ChatTextBox" Style="{StaticResource ChatTextBox}" />
-            <Grid Grid.Row="1">
+            <TextBox x:Name="ChatTextBox" Style="{StaticResource ChatTextBox}" Background="PowderBlue" Grid.ColumnSpan="2" />
+            <Grid Grid.ColumnSpan="2" Margin="0,353,0,0" Grid.RowSpan="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition/>
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
-                <Button x:Name="DiscconectButton" Content="Выйти" Width="70" Click="DiscconectButton_Click" />
-                <TextBox x:Name="MessageTextBox"  Grid.Column="1"/>
-                <Button x:Name="SendButton" Content="Отправить" Grid.Column="2" Width="100" Click="SendButton_Click"/>
+                <TextBox FontFamily="Comic Sans MS" x:Name="MessageTextBox"  Grid.Column="1"/>
+                <Button FontFamily="Comic Sans MS" x:Name="SendButton" Content="Отправить" Grid.Column="2" Width="100" Click="SendButton_Click" Background="SteelBlue"/>
             </Grid>
 
         </Grid>
